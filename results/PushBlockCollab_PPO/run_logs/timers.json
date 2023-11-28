@@ -1,0 +1,54 @@
+{
+    "name": "root",
+    "metadata": {
+        "timer_format_version": "0.1.0",
+        "start_time_seconds": "1701211279",
+        "python_version": "3.10.12 (main, Jun 11 2023, 05:26:28) [GCC 11.4.0]",
+        "command_line_arguments": "/usr/local/bin/mlagents-learn /content/drive/MyDrive/ml-agents/config/ppo/PushBlockCollab.yaml --env=/content/drive/MyDrive/PushBlockColab/PushBlockColab.x86_64 --run-id=PushBlockCollab_PPO --no-graphics --resume",
+        "mlagents_version": "1.1.0.dev0",
+        "mlagents_envs_version": "1.1.0.dev0",
+        "communication_protocol_version": "1.5.0",
+        "pytorch_version": "2.1.0+cu118",
+        "numpy_version": "1.23.5",
+        "end_time_seconds": "1701211324"
+    },
+    "total": 45.90355674900002,
+    "count": 1,
+    "self": 2.4431871189999868,
+    "children": {
+        "run_training.setup": {
+            "total": 1.1373523580000153,
+            "count": 1,
+            "self": 1.1373523580000153
+        },
+        "TrainerController.start_learning": {
+            "total": 42.323017272000016,
+            "count": 1,
+            "self": 0.0005031060000248999,
+            "children": {
+                "TrainerController._reset_env": {
+                    "total": 33.52766541700001,
+                    "count": 1,
+                    "self": 33.52766541700001
+                },
+                "trainer_threads": {
+                    "total": 1.4429999737330945e-06,
+                    "count": 1,
+                    "self": 1.4429999737330945e-06
+                },
+                "TrainerController._save_models": {
+                    "total": 8.794847306000008,
+                    "count": 1,
+                    "self": 0.23235202000000754,
+                    "children": {
+                        "RLTrainer._checkpoint": {
+                            "total": 8.562495286,
+                            "count": 1,
+                            "self": 8.562495286
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

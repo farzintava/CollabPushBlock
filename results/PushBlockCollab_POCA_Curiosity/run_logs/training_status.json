@@ -1,0 +1,65 @@
+{
+    "metadata": {
+        "stats_format_version": "0.3.0",
+        "mlagents_version": "1.1.0.dev0",
+        "torch_version": "2.1.0+cu118"
+    },
+    "PushBlockCollab": {
+        "checkpoints": [
+            {
+                "steps": 12780221,
+                "file_path": "results/PushBlockCollab_POCA_Curiosity/PushBlockCollab/PushBlockCollab-12780221.onnx",
+                "reward": 0.0,
+                "creation_time": 1700100248.196643,
+                "auxillary_file_paths": [
+                    "results/PushBlockCollab_POCA_Curiosity/PushBlockCollab/PushBlockCollab-12780221.pt"
+                ]
+            },
+            {
+                "steps": 13999958,
+                "file_path": "results/PushBlockCollab_POCA_Curiosity/PushBlockCollab/PushBlockCollab-13999958.onnx",
+                "reward": null,
+                "creation_time": 1700987553.3574753,
+                "auxillary_file_paths": [
+                    "results/PushBlockCollab_POCA_Curiosity/PushBlockCollab/PushBlockCollab-13999958.pt"
+                ]
+            },
+            {
+                "steps": 14499982,
+                "file_path": "results/PushBlockCollab_POCA_Curiosity/PushBlockCollab/PushBlockCollab-14499982.onnx",
+                "reward": 0.0,
+                "creation_time": 1700989045.8260033,
+                "auxillary_file_paths": [
+                    "results/PushBlockCollab_POCA_Curiosity/PushBlockCollab/PushBlockCollab-14499982.pt"
+                ]
+            },
+            {
+                "steps": 14999993,
+                "file_path": "results/PushBlockCollab_POCA_Curiosity/PushBlockCollab/PushBlockCollab-14999993.onnx",
+                "reward": 0.0,
+                "creation_time": 1700990522.2886527,
+                "auxillary_file_paths": [
+                    "results/PushBlockCollab_POCA_Curiosity/PushBlockCollab/PushBlockCollab-14999993.pt"
+                ]
+            },
+            {
+                "steps": 15000185,
+                "file_path": "results/PushBlockCollab_POCA_Curiosity/PushBlockCollab/PushBlockCollab-15000185.onnx",
+                "reward": 0.0,
+                "creation_time": 1700990522.5173912,
+                "auxillary_file_paths": [
+                    "results/PushBlockCollab_POCA_Curiosity/PushBlockCollab/PushBlockCollab-15000185.pt"
+                ]
+            }
+        ],
+        "final_checkpoint": {
+            "steps": 15000185,
+            "file_path": "results/PushBlockCollab_POCA_Curiosity/PushBlockCollab.onnx",
+            "reward": 0.0,
+            "creation_time": 1700990522.5173912,
+            "auxillary_file_paths": [
+                "results/PushBlockCollab_POCA_Curiosity/PushBlockCollab/PushBlockCollab-15000185.pt"
+            ]
+        }
+    }
+}
