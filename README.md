@@ -45,4 +45,3 @@ Follow this installation [tutorial](https://unity-technologies.github.io/ml-agen
 
 Once you have done the installation, open the Unity Editor and open subdirectory of **Project** from **ml-agents** directory as a new project in Unity Editor.
 
-![](./docs/find_env.png)
