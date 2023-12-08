@@ -45,3 +45,13 @@ Follow this installation [tutorial](https://unity-technologies.github.io/ml-agen
 
 Once you have done the installation, open the Unity Editor and open subdirectory of **Project** from **ml-agents** directory as a new project in Unity Editor.
 
+Follow this path, **Assets > ML-Agents > Examples > PushBlock > Scenes** and then open **PushBlockCollab.unity**
+![Find Env](./docs/find_env.png)
+
+Then, follow this path **Assets > ML-Agents > Examples > PushBlock > TFModels** and drag and drop existing **.onnx** file into **TFModels** directory.
+![Add model](./docs/add_model.png)
+
+In order to stick model to the agent, follow this path **Assets > ML-Agents > Examples > PushBlock > Prefabs**, then choose **PushBlockArea.prefab**. From top left window select **Agent**. Under **Behavior Parameters** choose the model you added recently.
+![Choose model](./docs/choose_model.png)
+
+Now, click on the play button to see visually how does this model perform on the environment.
